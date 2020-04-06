@@ -17,7 +17,7 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 ## Materiales Utilizados
 <br />
 
-###Switching 12v 5a
+### Fuente Switching 12v 5a
 <br />
 <img src="fuente12_5a.webp" alt="hi" class="inline"/>
 
