@@ -54,6 +54,11 @@ Dos barras de 14.5cm
 <br />
 <img src="barra.webp" alt="hi"  width="400" class="inline"/>
 
+### Rodamiento SKF R3zz
+
+R3zz es en pulgadas, la medida interna es de 4.76mm y externa 12.7mm espesor de 4.98mm
+<img src="R3zz.webp" alt="hi"  width="400" class="inline"/>
+
 <br />
 <div align="center">
 <b>Cualquier aporte de modificación en el codigo y/o diseño mecánico es mas que bienvenido.</b> 
