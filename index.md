@@ -21,6 +21,34 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 <br />
 <img src="fuente12_5a.webp" alt="hi"  width="400" class="inline"/>
 
+### Driver Modular Tb6600 4a Motor Paso A Paso 42v
+<br />
+<img src="driver.webp" alt="hi"  width="400" class="inline"/>
+
+### Motor Nema23
+<br />
+<img src="motor-paso-a-paso-nema-23.webp" alt="hi"  width="400" class="inline"/>
+
+### Modulo Lm2596 Hvs Step Down In 52v Out 4.5-32v
+<br />
+<img src="modulo-lm2596-hvs-step-down-in-52v-out-45-32v.webp" alt="hi"  width="400" class="inline"/>
+
+### Display Lcd 2004 Backlight Azul 20x4 + Serie I2c
+<br />
+<img src="display-lcd-2004-backlight-azul-20x4-serie-i2C.webp" alt="hi"  width="400" class="inline"/>
+
+### Encoder Rotativo Ky-040 - 20 Pasos X Vuelta
+<br />
+<img src="encoder-rotativo-20-pasos-x-vuelta.webp" alt="hi"  width="400" class="inline"/>
+
+### Switch Final Carrera 
+<br />
+<img src="switch-final-carrera.webp" alt="hi"  width="400" class="inline"/>
+
+### Filamento PetG
+<br />
+<img src="filamento-petg.webp" alt="hi"  width="400" class="inline"/>
+
 <br />
 <div align="center">
 <b>Cualquier aporte de modificación en el codigo y/o diseño mecánico es mas que bienvenido.</b> 
