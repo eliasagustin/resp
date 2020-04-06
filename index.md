@@ -49,7 +49,7 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 <br />
 <img src="filamento-petg.webp" alt="hi"  width="400" class="inline"/>
 
-### Barra rectificada 8mm rectificadas
+### Barra rectificada 8mm
 Dos barras de 14.5cm
 <br />
 <img src="barra.webp" alt="hi"  width="400" class="inline"/>
