@@ -6,21 +6,21 @@ Por lo que se prenseta esta idea como económica debido a que el dispositivo no 
 Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos con "engranajes impresos" lo que se traduce en mucho ruido y calor; o sistemas de donde se requería mucho torque, al final pude encontrar esta solución realizada por Sebastian Gaggino [Sebastian Gaggino](https://github.com/SebaGaggino/rees31) que usa un sistema de poleas para la distribución de la fuerza ejercida a los laterales del ambu.
 
 
-<br>
+<br />
 <div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcKIJMWP4SA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div/>
-<br>
-<br>
+<br />
+<br />
 
 
 ## Materiales Utilizados
 Switching 12v 5a
 
 
-<br>
+<br />
 <div align="center">
 <b>Cualquier aporte de modificación en el codigo y/o diseño mecánico es mas que bienvenido.</b> 
-<br>
+<br />
 <strong>eliasagustin@gmail.com</strong>
 <div/>
