@@ -9,10 +9,10 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 <br>
 <div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcKIJMWP4SA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div align="center">
+<div/>
 <br>
 <br>
-<div align="center">
+
 
 ## Materiales Utilizados
 Switching 12v 5a
