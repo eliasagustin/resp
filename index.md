@@ -19,7 +19,7 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 
 ### Fuente Switching 12v 5a
 <br />
-<img src="fuente12_5a.webp" alt="hi" class="inline"/>
+<img src="fuente12_5a.webp" alt="hi"  width="400" class="inline"/>
 
 <br />
 <div align="center">
