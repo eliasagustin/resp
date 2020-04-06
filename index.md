@@ -15,6 +15,8 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 <br>
 <br>
 <div align="center">
-Cualquier aporte de modificación en el codigo y/o diseño mecánico es mas que bienvenido.
-eliasagustin@gmail.com
+
+<b>Cualquier aporte de modificación en el codigo y/o diseño mecánico es mas que bienvenido.</b> 
+<br>
+<strong>eliasagustin@gmail.com</strong>
 <div align="center">
