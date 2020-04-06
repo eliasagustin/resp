@@ -15,8 +15,10 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 <div align="center">
 
 ## Materiales Utilizados
+Switching 12v 5a
 
 
+<br>
 <b>Cualquier aporte de modificación en el codigo y/o diseño mecánico es mas que bienvenido.</b> 
 <br>
 <strong>eliasagustin@gmail.com</strong>
