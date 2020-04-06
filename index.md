@@ -9,7 +9,7 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 <br />
 <div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcKIJMWP4SA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div/>
+</div>
 <br />
 <br />
 
@@ -23,4 +23,4 @@ Switching 12v 5a
 <b>Cualquier aporte de modificación en el codigo y/o diseño mecánico es mas que bienvenido.</b> 
 <br />
 <strong>eliasagustin@gmail.com</strong>
-<div/>
+</div>
