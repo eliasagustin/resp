@@ -19,7 +19,8 @@ Switching 12v 5a
 
 
 <br>
+<div align="center">
 <b>Cualquier aporte de modificación en el codigo y/o diseño mecánico es mas que bienvenido.</b> 
 <br>
 <strong>eliasagustin@gmail.com</strong>
-<div align="center">
+<div/>
