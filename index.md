@@ -33,7 +33,129 @@ Como ya mencioné arriba, realice unas pequeñas variaciones al modelo de Sebast
 
 ## Codigo
 <br />
-´ak el codigo´ codee
+```markdown
+#include  <Wire.h>
+#include <LiquidCrystal_I2C.h>
+LiquidCrystal_I2C lcd(0x27,20,4); //0x20 o 0x27
+
+ // define pin used
+ const int stepPin = 9;
+ const int dirPin = 7;
+ bool dir = LOW;
+ bool stopSignal = false;
+ //int potenciometroRaw = 0;
+ long velPulsoSteper = 0;
+ int pasosCont = 0;
+  int pasosMax = 5000;
+ //int sensiblidad = 10;
+
+//defino pines encoder
+#define outputA 4
+#define outputB 3
+#define boton 2
+  // variables necesarias para encoder
+  int counter = 10;
+  int aState;
+  int aLastState;
+
+ 
+ void setup() {
+ // lcd setup
+ lcd.init();                      // initialize the lcd 
+ lcd.backlight();          // Activar luz de fondo 
+ lcd.clear();              // Borrar LCD
+ lcd.print("  Respirador V1.0");
+ lcd.setCursor(0, 2);
+ lcd.print("eliasagustin@gmail.. ");
+ //encoder setup
+ pinMode (outputA,INPUT);
+ pinMode (outputB,INPUT);
+ pinMode (boton, INPUT_PULLUP);
+  
+ // set the two pins as outputs
+  pinMode(stepPin,OUTPUT);
+  pinMode(dirPin,OUTPUT);
+  Serial.begin(9600);
+  while(!Serial);
+  aLastState = digitalRead(outputA);   //Leemos el valor incial del encoder
+  delay(3000);
+  
+  lcd.setCursor(0, 2);
+  lcd.print("Frecuencia:         ");
+  lcd.setCursor(12, 2);
+  lcd.print(counter);
+  lcd.setCursor(0, 3);
+  lcd.print("Estado: Apagado");
+  velPulsoSteper= map(counter,0,20,150,5000);  // adaptamos el valor leido a un retardo en forma inicial
+}
+void loop() {
+
+//------------------------------ Lectura Encoder ------------------------------//
+//Activamos la puerta serie para sacar las lecturas del contador y leemos la situación de A cuando iniciamos.
+aState = digitalRead(outputA);
+if (aState != aLastState)
+   {
+    aLastState = aState; // Guardamos el ultimo valor
+      if (digitalRead(outputB) != aState){
+            if (counter<20){
+              counter ++;
+            }
+          }else{
+            if (counter>0){
+              counter --;
+            }
+          }
+      velPulsoSteper= map(counter,0,20,150,5000);  // adaptamos el valor leido a un retardo
+      Serial.print("Position: ");
+      Serial.println(counter);
+      lcd.setCursor(12, 2);
+      lcd.print(counter);
+      lcd.print(" ");
+   }
+
+bool B = digitalRead(boton);
+if ( !B )
+    { Serial.println("Detiene/Continua");
+      if (stopSignal){
+        stopSignal = false;
+        lcd.setCursor(8, 3);
+        lcd.print("Desactivado ");
+        delay(200);
+      }else{
+        stopSignal = true;
+        lcd.setCursor(8, 3);
+        lcd.print("Activado    ");
+        delay(200);
+      }
+      delay(200);
+    }
+//--------------------------- Fin Lectura Encoder ----------------------------//
+
+if (stopSignal){
+  if (pasosCont<(pasosMax/2)){
+    if(dir != LOW){dir=LOW;}
+    digitalWrite(dirPin,dir); //Enables the motor to move in a opposite direction
+    digitalWrite(stepPin,HIGH);
+    delayMicroseconds(velPulsoSteper);
+    digitalWrite(stepPin,LOW);
+    delayMicroseconds(velPulsoSteper);
+    }
+  if ((pasosCont>=(pasosMax/2)) and (pasosCont<pasosMax)){
+    if(dir != HIGH){dir=HIGH;}
+    digitalWrite(dirPin,dir); //Enables the motor to move in a opposite direction
+    digitalWrite(stepPin,HIGH);
+    delayMicroseconds(velPulsoSteper);
+    digitalWrite(stepPin,LOW);
+    delayMicroseconds(velPulsoSteper);
+    }
+  if (pasosCont<pasosMax){
+      pasosCont = pasosCont + 1;
+    } else {
+        pasosCont = 0;
+    }
+  }
+}
+```
 
 ## Materiales Utilizados
 <br />
