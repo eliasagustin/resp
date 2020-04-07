@@ -28,46 +28,46 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 ### Fuente Switching 12v 5a
 proximamente 24v 5a para usar otro Motor mas grande que el del video
 <br />
-<img src="fuente12_5a.webp" alt="hi"  width="250" class="inline"/>
+<img src="fuente12_5a.webp" alt="hi"  width="200" class="inline"/>
 
 ### Driver Modular Tb6600 4a Motor Paso A Paso 42v
 <br />
-<img src="driver.webp" alt="hi"  width="250" class="inline"/>
+<img src="driver.webp" alt="hi"  width="200" class="inline"/>
 
 ### Motor Nema23
 proximamente Nema24 de muy Alto Torque
 <br />
-<img src="motor-paso-a-paso-nema-23.webp" alt="hi"  width="250" class="inline"/>
+<img src="motor-paso-a-paso-nema-23.webp" alt="hi"  width="200" class="inline"/>
 
 ### Modulo Lm2596 Hvs Step Down In 52v Out 4.5-32v
 <br />
-<img src="modulo-lm2596-hvs-step-down-in-52v-out-45-32v.webp" alt="hi"  width="250" class="inline"/>
+<img src="modulo-lm2596-hvs-step-down-in-52v-out-45-32v.webp" alt="hi"  width="200" class="inline"/>
 
 ### Display Lcd 2004 Backlight Azul 20x4 + Serie I2c
 <br />
-<img src="display-lcd-2004-backlight-azul-20x4-serie-i2C.webp" alt="hi"  width="250" class="inline"/>
+<img src="display-lcd-2004-backlight-azul-20x4-serie-i2C.webp" alt="hi"  width="200" class="inline"/>
 
 ### Encoder Rotativo Ky-040 - 20 Pasos X Vuelta
 <br />
-<img src="encoder-rotativo-20-pasos-x-vuelta.webp" alt="hi"  width="250" class="inline"/>
+<img src="encoder-rotativo-20-pasos-x-vuelta.webp" alt="hi"  width="200" class="inline"/>
 
 ### Switch Final Carrera 
 <br />
-<img src="switch-final-carrera.webp" alt="hi"  width="250" class="inline"/>
+<img src="switch-final-carrera.webp" alt="hi"  width="200" class="inline"/>
 
 ### Filamento PetG
 <br />
-<img src="filamento-petg.webp" alt="hi"  width="250" class="inline"/>
+<img src="filamento-petg.webp" alt="hi"  width="200" class="inline"/>
 
 ### Barra rectificada 8mm
 Dos barras de 14.5cm
 <br />
-<img src="barra.webp" alt="hi"  width="250" class="inline"/>
+<img src="barra.webp" alt="hi"  width="200" class="inline"/>
 
 ### Rodamiento SKF R3zz
 2 Rodamientos R3zz que son en pulgadas, la medida interna es de 4.76mm y externa 12.7mm espesor de 4.98mm
 <br />
-<img src="R3zz.webp" alt="hi"  width="250" class="inline"/>
+<img src="R3zz.webp" alt="hi"  width="200" class="inline"/>
 
 <br />
 <div align="center">
