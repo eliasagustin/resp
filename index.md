@@ -13,6 +13,16 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 <br />
 <br />
 
+## El Modelo utilizado
+<br />
+<div align="center">
+<img src="Modelo.PNG" alt="hi"  width="800" class="inline"/>
+</div>
+<br />
+Como ya mencioné arriba, realice unas pequeñas variaciones al modelo de Sebastian Gaggino
+<br />
+[Descarga de STLs](repirador31_V5.rar "Descarga del Modelo")
+
 ## Esquema de conexiónes
 
 <br />
