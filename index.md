@@ -12,10 +12,14 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 </div>
 <br />
 <br />
+
 ## Esquema de conexiónes
+
 <br />
 <img src="EsquemaV1.png" alt="hi"  width="600" class="inline"/>
-<br /><br />
+<br />
+<br />
+
 ## Materiales Utilizados
 <br />
 
