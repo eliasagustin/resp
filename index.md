@@ -43,13 +43,11 @@ LiquidCrystal_I2C lcd(0x27,20,4); //0x20 o 0x27
  const int dirPin = 7;
  bool dir = LOW;
  bool stopSignal = false;
- //int potenciometroRaw = 0;
  long velPulsoSteper = 0;
  int pasosCont = 0;
-  int pasosMax = 5000;
- //int sensiblidad = 10;
-
-//defino pines encoder
+ int pasosMax = 5000;
+ 
+ //defino pines encoder
 #define outputA 4
 #define outputB 3
 #define boton 2
@@ -61,9 +59,9 @@ LiquidCrystal_I2C lcd(0x27,20,4); //0x20 o 0x27
  
  void setup() {
  // lcd setup
- lcd.init();                      // initialize the lcd 
- lcd.backlight();          // Activar luz de fondo 
- lcd.clear();              // Borrar LCD
+ lcd.init();      // initialize the lcd 
+ lcd.backlight(); // Activar luz de fondo 
+ lcd.clear();     // Borrar LCD
  lcd.print("  Respirador V1.0");
  lcd.setCursor(0, 2);
  lcd.print("eliasagustin@gmail.. ");
@@ -89,7 +87,6 @@ LiquidCrystal_I2C lcd(0x27,20,4); //0x20 o 0x27
   velPulsoSteper= map(counter,0,20,150,5000);  // adaptamos el valor leido a un retardo en forma inicial
 }
 void loop() {
-
 //------------------------------ Lectura Encoder ------------------------------//
 //Activamos la puerta serie para sacar las lecturas del contador y leemos la situación de A cuando iniciamos.
 aState = digitalRead(outputA);
