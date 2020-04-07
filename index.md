@@ -18,6 +18,7 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 <br />
 
 ### Fuente Switching 12v 5a
+proximamente 24v 5a para usar otro Motor mas grande que el del video
 <br />
 <img src="fuente12_5a.webp" alt="hi"  width="400" class="inline"/>
 
@@ -26,6 +27,7 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 <img src="driver.webp" alt="hi"  width="400" class="inline"/>
 
 ### Motor Nema23
+proximamente Nema24 de muy Alto Torque
 <br />
 <img src="motor-paso-a-paso-nema-23.webp" alt="hi"  width="400" class="inline"/>
 
