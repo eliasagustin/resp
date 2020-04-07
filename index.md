@@ -33,6 +33,7 @@ Como ya mencioné arriba, realice unas pequeñas variaciones al modelo de Sebast
 
 ## Codigo
 <br />
+
 ```markdown
 #include  <Wire.h>
 #include <LiquidCrystal_I2C.h>
@@ -126,6 +127,7 @@ if ( !B )
       }
       delay(200);
     }
+```
 //--------------------------- Fin Lectura Encoder ----------------------------//
 
 if (stopSignal){
