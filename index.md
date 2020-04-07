@@ -16,7 +16,9 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 ## Esquema de conexiónes
 
 <br />
-<img src="EsquemaV1.png" alt="hi"  width="600" class="inline"/>
+<div align="center">
+<img src="EsquemaV1.png" alt="hi"  width="800" class="inline"/>
+</div>
 <br />
 <br />
 
