@@ -16,7 +16,7 @@ Esto se desarrollo luego de estudiar y probar con diferentes sistemas mecánicos
 ## El Modelo utilizado
 <br />
 <div align="center">
-<img src="Modelo.PNG" alt="hi"  width="800" class="inline"/>
+<img src="Modelo.png" alt="hi"  width="800" class="inline"/>
 </div>
 <br />
 Como ya mencioné arriba, realice unas pequeñas variaciones al modelo de Sebastian Gaggino
