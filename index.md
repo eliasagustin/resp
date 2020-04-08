@@ -33,19 +33,19 @@ Como ya mencioné arriba, realice unas pequeñas variaciones al modelo de Sebast
 
 ## Estado del Proyecto
 
-Resumen de desarrollo respecto a las características:
-Sistema mecánico para la compresión de un Ambu ----------- Listo
-Motor de gran torque y funcionamiento continuo ----------- Listo
-Controlador/Fuente para abastecer el motor --------------- Listo
-Electrónica general de sistema --------------------------- Lista
-Interfaces del sistema para setear parámetros ------------ Fase Intermedia
-   Frecuencia de compresión ------------------------------ Lista
-   Amplitud de compresión -------------------------------- a desarrollar
-   Tiempo de inhalación ---------------------------------- a desarrollar
-   Tiempo entre inhalación y exhalación ------------------ a desarrollar
-   Tiempo de exhalación ---------------------------------- a desarrollar
-   Acción de inhalación y exhalación por demanda --------- a desarrollar
-Instalación de sensor de presión diferencial ------------- No empezada
+Resumen de desarrollo respecto a las características:<br />
+Sistema mecánico para la compresión de un Ambu ----------- Listo<br />
+Motor de gran torque y funcionamiento continuo ----------- Listo<br />
+Controlador/Fuente para abastecer el motor --------------- Listo<br />
+Electrónica general de sistema --------------------------- Lista<br />
+Interfaces del sistema para setear parámetros ------------ Fase Intermedia<br />
+   Frecuencia de compresión ------------------------------ Lista<br />
+   Amplitud de compresión -------------------------------- a desarrollar<br />
+   Tiempo de inhalación ---------------------------------- a desarrollar<br />
+   Tiempo entre inhalación y exhalación ------------------ a desarrollar<br />
+   Tiempo de exhalación ---------------------------------- a desarrollar<br />
+   Acción de inhalación y exhalación por demanda --------- a desarrollar<br />
+Instalación de sensor de presión diferencial ------------- No empezada<br />
 
 ## Codigo
 <br />
