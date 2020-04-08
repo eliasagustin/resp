@@ -38,9 +38,9 @@ Sistema mecánico para la compresión de un Ambu ------- Listo<br />
 Motor de gran torque y funcionamiento continuo -------- Listo<br />
 Controlador/Fuente para abastecer el motor -------------- Listo<br />
 Electrónica general de sistema ----------------------------- Lista<br />
-Interfaces del sistema para setear parámetros ------------ Fase Intermedia<br />
-&nbsp;&nbsp;&nbsp;Frecuencia de compresión ------------------------------ Lista<br />
-&nbsp;&nbsp;&nbsp;Amplitud de compresión --------------------------------- a desarrollar<br />
+Interfaces del sistema para setear parámetros ------------- Fase Intermedia<br />
+&nbsp;&nbsp;&nbsp;Frecuencia de compresión ------------------------------- Lista<br />
+&nbsp;&nbsp;&nbsp;Amplitud de compresión -------------------------------- a desarrollar<br />
 &nbsp;&nbsp;&nbsp;Tiempo de inhalación ---------------------------------- a desarrollar<br />
 &nbsp;&nbsp;&nbsp;Tiempo entre inhalación y exhalación ------------------ a desarrollar<br />
 &nbsp;&nbsp;&nbsp;Tiempo de exhalación ---------------------------------- a desarrollar<br />
