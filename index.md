@@ -34,8 +34,8 @@ Como ya mencioné arriba, realice unas pequeñas variaciones al modelo de Sebast
 ## Estado del Proyecto
 
 Resumen de desarrollo respecto a las características:<br />
-Sistema mecánico para la compresión de un Ambu ----------- Listo<br />
-Motor de gran torque y funcionamiento continuo ----------- Listo<br />
+Sistema mecánico para la compresión de un Ambu ------- Listo<br />
+Motor de gran torque y funcionamiento continuo -------- Listo<br />
 Controlador/Fuente para abastecer el motor --------------- Listo<br />
 Electrónica general de sistema --------------------------- Lista<br />
 Interfaces del sistema para setear parámetros ------------ Fase Intermedia<br />
